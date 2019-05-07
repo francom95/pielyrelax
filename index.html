@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Pielyrelax</title>
+		<link rel="stylesheet" href="estilo.css" />
+		<meta charset="UTF-8">
+		<script src="//code.jquery.com/jquery-1.9.1.js"></script>
+		<script src="//code.jquery.com/ui/1.10.4/jquery-ui.js"></script>
+		<script type="text/javascript">
+			function paginaEnConstruccion(){
+				//alert("Atención: este sitio web se encuentra en construcción, por lo tanto, únicamente se tiene acceso a algunas secciones del mismo. Disculpe las molestias.");
+			}
+			function mostrar(id){
+				var x = document.getElementById(id);
+				x.style.display = "block";
+			}
+			function ocultar(id){
+				var x = document.getElementById(id);
+				x.style.display = "none";	
+			}
+		</script>
+
+	</head>
+	<body>
+		<header>
+			<a href="index.html" class="sinEstilo"><img src="logo.png" class="logo" /></a>
+			<nav>
+				<ul>
+					<li><a href="index.html">Inicio</a></li>
+					<li><a href="tratamientos.html">Tratamientos</a></li>
+					<li><a href="sacar-turno.html">Saca tu turno!</a></li>
+					<li><a href="contacto.html">Contacto</a></li>
+				</ul>
+			</nav>
+		</header>
+		<main>
+			<section class="grupo">
+				<section class="panelIzquierdoTratamiento">
+					<img src="cosmetologia.jpg" class="imagen-inicio" />
+				</section>
+				<section class="resenia">
+					<h2>Valeria Montanari</h2>
+					<p>
+						En Pielyrelax me especializo en distintas técnicas de relajación y en el cuidado de la piel.
+						Creé un espacio en el que podés volver a tu centro, mimarte mientras mejoro tu cutis, te realizo un masaje y te hago reflexología.
+						Permaneciendo en el aquí y en el ahora disfrutamos de distintos aromas y escuchamos música acorde a tus gustos, o bien si lo preferís solo el silencio. Mi meta es tratar y cuidar de tu piel y tu cuerpo encontrando esos maravillosos momentos para vos. Vení y vivenciá estos tratamientos formidables, tu piel lo va a agradecer.
+					</p>
+				</section>
+			</section>
+			<section class="grupo">
+				<section class="resenia-como-llegar">
+					<h2>Como llegar?</h2>
+						<div class="un-transporte">
+							<img src="tren.png" class="foto-transporte" onmouseover='mostrar("infoTrenes")' onmouseout='ocultar("infoTrenes")' />
+							<div>
+								<div class="titulo-transporte">Tren</div>
+						<!--		<div class="info-transporte">Roca > Ramal Constitucion - La Plata > Estacion: Berazategui</div>-->
+							</div>
+						</div>
+						<div class="un-transporte">
+							<img src="bus.png" class="foto-transporte" onmouseover='mostrar("infoOmnibuses")' onmouseout='ocultar("infoOmnibuses")' />
+							<div>
+								<div class="titulo-transporte">Omnibus</div>
+						<!--		<div class="info-transporte">Roca > Ramal Constitucion - La Plata > Estacion: Berazategui</div>-->
+							</div>
+						</div>
+						<div id="infoTrenes">Tren Roca (estación Berazategui). Caminar 6 cuadras.</div>
+						<div id="infoOmnibuses">
+							<ul>
+								<li>159 (ramal L azul)</li>
+								<li>159 (ramal 1 x mitre)</li>
+								<li>159 (ramal 2 x acceso)</li>
+								<li>98 (ramal3 negro)</li>
+								<li>98 (ramal3 verde)</li>
+								<li>98 (ramal 5)</li>
+								<li>603 (ramal 1)</li>
+								<li>603 (ramal 3)</li>
+								<li>603 (ramal 6)</li>
+								<li>300 (ramal A antartida argentina)</li>
+							</ul>
+							Caminar 3 cuadras.
+						</div>
+				</section>
+				<section class="panelIzquierdoTratamiento">
+					<img src="ubicacion.png" class="imagen-inicio" />
+				</section>
+			</section>
+		</main>
+		<footer>
+			<ul>
+				<li>Seguime redes sociales
+					<ul>
+						<li><a href="https://www.instagram.com/pielyrelax/"><img src="instagram.png" class="icon" /></a></li>
+						<li><a href="https://www.facebook.com/cosmiatriavale.montanari"><img src="facebook.png" class="icon" /></a></li>
+					</ul>
+				</li>
+				<li>Contacto
+					<address>
+						Valeria Montanari<br>
+						WhatsApp: +54 11 5527-9197<br>
+						Teléfono fijo: +54 (011) 2125-1560<br>
+						Correo electrónico: valeriasolem26@hotmail.com
+					</address>
+				</li>
+				<li>Ubicación
+					<address>
+						142 n° 1641, Berazategui, Bs. As., Argentina.
+					</address>
+				</li>
+				<li>Idioma
+					<ul>
+						<li>
+							<form method="post">
+								<select class="idiomaSelector">
+									<option value="spanish" selected>Español</option>
+								</select>
+							</form>
+						</li>
+					</ul>
+				</li>
+			</ul>
+		</footer>
+	</body>
+</html>

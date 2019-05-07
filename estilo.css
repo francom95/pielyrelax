@@ -1,0 +1,445 @@
+body{
+	background-color:#EC7063;
+	padding:0;
+	margin:0;
+}
+
+header{
+	opacity:0.75;
+	width:100%;
+	position:fixed;
+	top:0;
+	left:0;
+	right:0;
+	padding-left:2%;
+background: rgba(248,80,50,1);
+background: -moz-linear-gradient(top, rgba(248,80,50,1) 0%, rgba(241,111,92,1) 51%, rgba(231,56,39,1) 81%, rgba(231,56,39,1) 100%);
+background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(248,80,50,1)), color-stop(51%, rgba(241,111,92,1)), color-stop(81%, rgba(231,56,39,1)), color-stop(100%, rgba(231,56,39,1)));
+background: -webkit-linear-gradient(top, rgba(248,80,50,1) 0%, rgba(241,111,92,1) 51%, rgba(231,56,39,1) 81%, rgba(231,56,39,1) 100%);
+background: -o-linear-gradient(top, rgba(248,80,50,1) 0%, rgba(241,111,92,1) 51%, rgba(231,56,39,1) 81%, rgba(231,56,39,1) 100%);
+background: -ms-linear-gradient(top, rgba(248,80,50,1) 0%, rgba(241,111,92,1) 51%, rgba(231,56,39,1) 81%, rgba(231,56,39,1) 100%);
+background: linear-gradient(to bottom, rgba(248,80,50,1) 0%, rgba(241,111,92,1) 51%, rgba(231,56,39,1) 81%, rgba(231,56,39,1) 100%);
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f85032', endColorstr='#e73827', GradientType=0 );}
+
+nav{
+	display:inline-block;
+	width:75%;
+	text-align:center;
+	vertical-align:top;
+}
+
+h1.titulo-pagina{
+	display:inline-block;
+	width:20%;
+	font-family:'Channel';
+}
+
+
+nav ul li{
+	display:inline-block;
+	width:18%;
+	font-size:15pt;
+	letter-spacing:2px;
+	font-family:"Comic Sans MS";
+}
+
+
+nav ul li:hover{
+	font-weight:bold;
+}
+
+nav ul li a{
+	text-decoration:none;
+	color:black;
+}
+
+main{
+	text-align:center;
+	padding-top:10%;
+	padding-bottom:10em;
+	padding-left:5%;
+	padding-right:5%;
+}
+
+.grupo{
+	margin-top:5em;
+	margin-bottom:10em;
+	text-align:center;
+}
+
+.grupo h2{
+	text-transform:uppercase;
+}
+
+section.resenia-como-llegar{
+	vertical-align:top;
+	width:45%;
+	margin-left:2%;
+	display:inline-block;
+	padding-top:2em;
+	font-size:16pt;
+	font-weight:bold;
+	letter-spacing:2px;
+}
+
+.titulo-transporte{
+	
+}
+
+.transporte-desc{
+	font-size:12pt;
+}
+
+.un-transporte{
+	margin-top:1em;
+	margin-bottom:1em;
+	display:inline-block;
+	width:45%;
+	text-align:center;
+}
+div#infoTrenes{
+	display:none;
+}
+div#infoOmnibuses{
+	display:none;
+	text-align:left;
+}
+
+
+.dos-transporte{
+	width:50%;
+}
+
+.info-transporte{
+	font-size:14pt;
+	font-weight:normal;
+}
+
+.transporte{
+}
+
+img.foto-transporte{
+	width:50%;
+	height:5em;
+	vertical-align:middle;
+	margin-right:1em;
+}
+
+section.resenia{
+	vertical-align:top;
+	width:45%;
+	margin-left:2%;
+	display:inline-block;
+}
+
+section.resenia p{
+	font-size:16pt;
+}
+
+section.panelIzquierdoTratamiento{
+	vertical-align:middle;
+	width:50%;
+	height:30em;
+	display:inline-block;
+	border-radius:5%;
+	
+}
+
+.imagen-inicio{
+	vertical-align:middle;
+	width:100%;
+	height:30em;
+	display:inline-block;
+	border-radius:5%;
+	margin-top:2em;
+	margin-bottom:2em;
+}
+
+.imagen-rosas{
+	vertical-align:middle;
+	width:90%;
+	height:28em;
+	display:inline-block;
+	border-radius:5%;
+	margin-top:2em;
+	margin-bottom:2em;
+}
+
+footer{
+	padding-top:0.5em;
+	background: rgba(248,80,50,1);
+	bottom:0;
+	clear:both;
+	height:15em;
+	text-align:center;
+}
+
+footer ul li{
+	vertical-align:top;
+	display:inline-block;
+	width:20%;
+	margin-left:2%;
+	margin-right:2%;
+	text-transform:uppercase;
+	font-weight:bold;
+}
+
+footer ul li ul{
+	margin-top:1em;
+	margin-left:-2em;
+	text-align:center;
+}
+
+.icon{
+	float:left;
+	margin-left:1em;
+	height:2em;
+	width:2em;
+}
+
+select.idiomaSelector{
+	padding:20%;
+	font-size:14pt;
+	background:transparent;
+	border-radius:15%;
+}
+
+address{
+	margin-top:1em;
+	text-align:left;
+}
+
+.cosas{
+	color:black;
+	-webkit-box-shadow: 1px 2px 17px 2px rgba(248,80,50,1);
+-moz-box-shadow: 1px 2px 17px 2px rgba(248,80,50,1);
+box-shadow: 1px 2px 17px 2px rgba(248,80,50,1);
+	background-color: rgba(241, 148, 138,1);
+	border-radius:8%;
+	margin-top:2em;
+	display:inline-block;
+	vertical-align:top;
+	margin-left:4%;
+	margin-right:4%;
+	margin-bottom:1em;
+	width:22%;
+	height:16.5em;
+	text-align:center;
+}
+
+.imagen-tratamiento{
+	margin-bottom:0.5em;
+	border-radius:8% 8% 0 0;
+	width:100%;
+	height:12em;
+}
+.imagen-producto{
+	margin-bottom:0.5em;
+	border-radius:8% 8% 0 0;
+	width:100%;
+	height:15em;
+}
+
+strong.tratamiento-title{
+	text-transform:uppercase;
+	font-size:16pt;
+}
+
+img.img-construccion{
+	width:80%;
+	text-align:center;
+	height:30em;
+}
+
+aside{
+	text-align:left;
+	vertical-align:top;
+	width:25%;
+	display:inline-block;
+	font-size:14pt;
+	background-color:white;
+	padding:1em;
+	border-radius:5%;
+}
+
+ul.productos-filtro li{
+	list-style:none;
+	text-transform:uppercase;
+}
+ul.productos-filtro li.mas-opciones:before{
+	content:'+ ';
+}
+ul.productos-filtro li.mas-opciones a{
+	font-weight:bold;
+	color:black;
+	font-size:12pt;
+}
+
+ul.productos-filtro li a{
+	text-decoration:none;
+	color:grey;
+}
+
+input.filtro-nombre-producto{
+	margin-top:1em;
+	margin-bottom:1em;
+	padding:0.5em;
+	width:50%;
+}
+
+select.select-productos-filtro{
+	padding:0.5em;
+	width:50%;
+	margin-top:1em;
+	margin-bottom:1em;
+}
+
+section.productos{
+	vertical-align:top;
+	width:60%;
+	display:inline-block;
+	text-align:center;
+}
+article.producto{
+	-webkit-box-shadow: 1px 2px 17px 2px rgba(248,80,50,1);
+-moz-box-shadow: 1px 2px 17px 2px rgba(248,80,50,1);
+box-shadow: 1px 2px 17px 2px rgba(248,80,50,1);
+	background-color: rgba(241, 148, 138,1);
+	border-radius:8%;
+	margin-top:2em;
+	display:inline-block;
+	vertical-align:top;
+	margin-left:4%;
+	margin-right:4%;
+	margin-bottom:1em;
+	width:40%;
+	height:18.5em;
+	text-align:center;
+	padding-bottom:0.5em;
+}
+
+p.contacto-mensaje{
+	font-size:16pt;
+}
+.campo-contacto{
+	display:block;
+	margin-top:1em;
+	margin-bottom:1em;
+	height:3em;
+	min-width:25em;
+	border-radius:5px;
+	padding-left:1em;
+	font-family:"Comic Sans MS";
+}
+.mensaje-contacto{
+	border-radius:5px;
+	display:block;
+	margin-top:1em;
+	margin-bottom:1em;
+	height:10em;
+	min-width:25em;
+	max-width:25em;
+	padding-left:1em;
+	padding-top:1em;
+	font-family:"Comic Sans MS";
+}
+form.form-contacto{
+	font-size:18pt;
+	margin-left:30%;
+	margin-right:20%;
+	text-align:center;
+}
+section.contacto-box{
+	
+	-webkit-box-shadow: 1px 2px 17px 2px rgba(248,80,50,1);
+-moz-box-shadow: 1px 2px 17px 2px rgba(248,80,50,1);
+box-shadow: 1px 2px 17px 2px rgba(248,80,50,1);
+	background-color: rgba(241, 148, 138,1);
+	border-radius:8%;
+	margin-top:2em;
+	display:inline-block;
+	vertical-align:top;
+	margin-left:4%;
+	margin-right:4%;
+	margin-bottom:1em;
+	padding-top:1em;
+	padding-bottom:3em;
+	width:60%;
+	height:auto;
+	font-size:14pt;
+}
+.boton-enviar{
+	margin-top:1em;
+	text-transform:uppercase;
+	height:3em;
+	border-radius:5px;
+	background-color:#e56656;
+	color:white !important;
+	border:none;
+	padding-left:10%;
+	padding-right:10%;
+}
+.boton-enviar:hover{
+	background-color:#cb4332;
+}
+.boton-comprar{
+	margin-top:1em;
+	text-transform:uppercase;
+	height:3em;
+	border-radius:5px;
+	background-color:#cb4332;
+	color:white !important;
+	border:none;
+	padding-left:10%;
+	padding-right:10%;
+}
+.imagen-tratamiento-especifico{
+	width:90%;
+}
+.precio{
+	margin-left:5em;
+	text-transform:uppercase;
+}
+ul.listaPeeling{
+	line-height:1.25;
+}
+ul.listaPeeling li{
+	font-size:16pt;
+	text-align:left;
+}
+a.sinEstilo{
+	text-decoration:none;
+	color:black;
+}
+img.iconoRedSocialGrande{
+	width:2em;
+	height:2em;
+}
+div.redSocial{
+	margin-top:1em;
+	
+}
+div.redSocial strong{
+	vertical-align:middle;
+	font-size:16pt;
+	margin-left:0.5em;
+}
+div.redSocial img{
+	vertical-align:middle;
+}
+.alineadoIzquierda{
+	text-align:left;
+	margin-left:35%;
+}
+a.linkRedSocial{
+	text-decoration:none;
+	color:black;
+}
+a.linkRedSocial:hover{
+	color:#FFD700;
+}
+img.logo{
+	width:10em;
+	height:3em;
+	padding-top:0.75em;
+}
